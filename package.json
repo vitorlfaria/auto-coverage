@@ -2,6 +2,7 @@
   "name": "auto-coverage",
   "displayName": "Auto Coverage",
   "description": "Generate coverage report for your dotnet project in one click",
+  "publisher": "vitor-lacerda",
   "icon": "images/icon.png",
   "version": "0.0.1",
   "repository": {
