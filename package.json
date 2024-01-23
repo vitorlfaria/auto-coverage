@@ -2,20 +2,21 @@
   "name": "auto-coverage",
   "displayName": "Auto Coverage",
   "description": "Generate coverage report for your dotnet project in one click",
+  "icon": "images/icon.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
-    "Other"
+    "Testing"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onStartupFinished"],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "auto-coverage.helloWorld",
-        "title": "Hello World"
+        "title": "Auto Coverage: Generate Coverage Report"
       }
     ]
   },
