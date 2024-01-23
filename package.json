@@ -4,6 +4,10 @@
   "description": "Generate coverage report for your dotnet project in one click",
   "icon": "images/icon.png",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitorlfaria/auto-coverage"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
